@@ -1,185 +1,207 @@
-*{
-    margin: 0px; 
-    font-family: "inter"; 
+* {
+    margin: 0px;
+    font-family: "inter";
+    box-sizing: border-box;
 }
 
 /*menu superior inicio*/
-#logo{
-
-    margin-left: 56px;
-    margin-top: 52px;
-
-
-}
-
-#titulo_menusup{
-
-    margin-top: 185px;
-    margin-left: 172px;
-    line-height: 51.4px;
-    width: 536px;
-    height: 102px;
-
-}
-
-#paragrafo_menusup{
-
+#logo {
+    margin-left: 5%;
     margin-top: 30px;
-    margin-left: 172px;
-    line-height: 30px;
-    font-size: 20px;
-    width: 536px;
-    height: 90px;
-    padding-bottom: 100px;
+    width: 80px;
+}
 
+#titulo_menusup {
+    margin-top: 100px;
+    margin-left: 5%;
+    line-height: 1.5;
+    width: 90%;
+    font-size: 2.5em;
 
 }
 
-#menusuperior{
-
-     background-image: url(/img/fundo_menusup.svg);
-     color: #ffffff;
-
+#paragrafo_menusup {
+    margin-top: 20px;
+    margin-left: 5%;
+    line-height: 1.8;
+    font-size: 1.2em;
+    width: 90%;
+    /* Tornar o parágrafo flexível */
+    padding-bottom: 50px;
 }
-/*menu superior fim*/
+
+#menusuperior {
+    background-image: url(/img/fundo_menusup.svg);
+    color: #ffffff;
+    padding: 20px 0;
+    /* Adicionando padding para dar mais espaçamento */
+}
 
 /*menu informacional inicio*/
-#menuinfo{
-
+#menuinfo {
     background-color: #EAECE5;
-    display: grid;
-    grid-auto-flow: column;
-    columns:auto
-}
-
-.icon{
-
-    margin:50px 0px 50px 100px;
-    padding: 25;
-}
-
-.textoinfo{
-
     display: flex;
-    align-items:center
-
-}
-/*menu informacional fim*/
-
-/*menu Seção video inicio*/
-#titulo_video{
-
-    color:#247BA0;
-    margin-top: 50px;
-    
-}
-
-#secao_video{
-
-    display:grid;
-    grid-auto-flow: column;
-    columns: auto;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
 
 }
 
-#video{
-    margin: 50px 25px 50px 100px;
+.icon {
+    margin: 10px;
 }
-/*menu Seção video fim*/
 
- /*Carrosel inicio*/
- #carrossel{
+.textoinfo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    /* Centralizar texto em telas pequenas */
+    margin: 10px;
+}
 
-    background-color: #247BA0 ;
-    padding: 50px;
+/*Seção video inicio*/
+#titulo_video {
+    color: #247BA0;
+    margin-top: 30px;
+    font-size: 2em;
+    text-align: center;
 
- }
+}
 
-#titulo_carrossel{
+#secao_video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+#video {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+}
+
+/*Carrosel inicio*/
+#carrossel {
+    background-color: #247BA0;
+    padding: 30px;
+}
+
+#titulo_carrossel {
     color: white;
     text-align: center;
-    font-size: 25px;
-
+    font-size: 1.8em;
 }
 
-#div_cards{
-
+#div_cards {
     margin-top: 25px;
-    display: grid;
-    grid-auto-flow: column;
-
-
-}
-
-#seta_esquerda{
-
-    display: none;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
 
 }
 
-#card_bruna{
-
-    display: none;
+.card {
+    margin: 10px;
+    width: 90%;
+    max-width: 250px;
 
 }
 
-.seta{
-
-    margin-top: 55px;
+.seta {
     cursor: pointer;
 }
 
-.seta:hover{
-
-    transform: translateY(-7px);
-    transition: 0,5s;
+.seta:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
 }
-  /*Carrosel fim*/
 
-  /*Formuário inicio*/
-
-
-#formulario{
-
+/*Formulário inicio*/
+#formulario {
     text-align: center;
-
-
+    padding: 40px 0;
 }
 
-#titulo_formulario{
-
-    font-size: 25px;
+#titulo_formulario {
+    font-size: 2em;
     margin: 25px;
     color: #383838;
-
 }
 
-input{
-    width: 300px;
+input {
+    width: 90%;
+    max-width: 350px;
     height: 53px;
     background-color: #EAECE5;
-    margin: 25px;
+    margin: 15px;
     border: 0px;
     border-radius: 5px;
     padding-left: 10px;
 }
 
-button{
+button {
     background-color: #247BA0;
     height: 40px;
-    width: 250px;
+    width: 90%;
+    max-width: 300px;
     color: #EAECE5;
     border: 0px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: #318fb8;
-    color: white;
-    transform: translateY(-7px);
-    box-shadow: 0px 15px 20px color  #05103081;
-    transition-duration: 0.5ms;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.5s;
 }
-    
-  /*Formuário fim*/
+
+
+@media (max-width: 768px) {
+    #titulo_menusup {
+        font-size: 1.8em;
+        margin-left: 5%;
+    }
+
+    #paragrafo_menusup {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    #titulo_video {
+        font-size: 1.5em;
+    }
+
+    .icon {
+        margin: 10px 5px;
+    }
+
+    #secao_video {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #div_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        overflow-x: scroll;
+    }
+
+    .card {
+        margin: 10px;
+        width: 80%;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+    }
+}
