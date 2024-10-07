@@ -1,5 +1,6 @@
 ```markdown
 # Landing Page - Escola DNC
+#Link para visualização: https://lading-page-dnc-gabrielcamilo.netlify.app/
 
 Este projeto é uma landing page da Escola DNC, desenvolvida com HTML, CSS e JavaScript. A página é uma apresentação do curso gratuito de Introdução à Tecnologia oferecido pela DNC School, com elementos interativos como um carrossel de depoimentos e um formulário de inscrição.
 
@@ -25,8 +26,6 @@ Este projeto é uma landing page da Escola DNC, desenvolvida com HTML, CSS e Jav
 
    ```bash
    git clone https://github.com/seu-usuario/landing-page-escola-dnc.git
-   ```
-
 2. **Estrutura de Pastas:**
 
    - `index.html`: Estrutura da página HTML.
