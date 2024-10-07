@@ -1,57 +1,55 @@
-```markdown
-# Landing Page - Escola DNC
-#Link para visualização: https://lading-page-dnc-gabrielcamilo.netlify.app/
+Landing Page - Escola DNC
+Link para visualização
+Este projeto é uma landing page interativa da Escola DNC , desenvolvida com HTML , CSS e JavaScript . A página promove um curso gratuito de Introdução à Tecnologia , apresentando os benefícios do curso, depoimentos de alunos e um formulário de inscrição que integra o Sheetmonkey .
 
-Este projeto é uma landing page da Escola DNC, desenvolvida com HTML, CSS e JavaScript. A página é uma apresentação do curso gratuito de Introdução à Tecnologia oferecido pela DNC School, com elementos interativos como um carrossel de depoimentos e um formulário de inscrição.
+Funcionalidades
+Cardápio Superior :
 
-## Funcionalidades
+Apresenta o logotipo da escola, um título atrativo e uma breve descrição sobre o curso de tecnologia oferecido.
+Menu Informativo :
 
-- **Menu Superior:** Contém o logotipo da escola, um título convidativo e uma breve descrição do curso gratuito de introdução à tecnologia.
-- **Menu Informacional:** Destaque para três vantagens do curso: certificado de conclusão, 4 horas de conteúdo e aulas online gravadas, utilizando ícones para facilitar a visualização.
-- **Seção de Vídeo:** Inclui um vídeo do YouTube embutido, com uma descrição sobre como o curso ajuda a iniciar um projeto prático com ferramentas e métodos tecnológicos.
-- **Carrossel:** Exibe depoimentos de alunos que já participaram do curso, com botões para rolar entre os diferentes cards.
-- **Formulário:** Permite que o usuário se inscreva no curso, preenchendo seu nome, e-mail e telefone. Os dados são enviados via integração com o [Sheetmonkey](https://sheetmonkey.io).
+Exibe três principais vantagens do curso: certificado de conclusão, 4 horas de conteúdo e aulas online gravadas. Os ícones ajudam a destacar visualmente essas informações.
+Seção de Vídeo :
 
-## Tecnologias Utilizadas
+Inclui um vídeo do YouTube sobre o curso, acompanhado de uma explicação de como ele ajuda a iniciar um projeto prático utilizando ferramentas e métodos tecnológicos.
+Carrossel de Depoimentos :
 
-- **HTML:** Estrutura da página.
-- **CSS:** Estilização da página, com uso de Flexbox e Grid para organização dos elementos.
-- **JavaScript:** Função para controlar o carrossel de depoimentos, permitindo rolar entre os cards.
-- **Google Fonts:** Fonte "Inter" utilizada para o texto.
-- **Sheetmonkey API:** Utilizada para capturar as inscrições do formulário.
+Um carrossel que exibe depoimentos de alunos que já participaram do curso. O usuário pode navegar entre os cartões utilizando as setas de navegação.
+Formulário de Inscrição :
 
-## Como Utilizar
+Permite que os visitantes se inscrevam preenchendo seu nome, e-mail e telefone. Os dados são capturados por meio da integração com o Sheetmonkey .
+Tecnologias Utilizadas
+HTML : Fornece a estrutura da página.
+CSS : Utilizado para estilização da página, incluindo Flexbox e Grid para organização dos elementos e adaptação do layout.
+JavaScript : Responsável por controlar o carrossel de depoimentos, permitindo a alternância entre os cartões de forma interativa.
+Google Fonts : Fonte "Inter" utilizada para melhorar a tipografia.
+API Sheetmonkey : Integração que coleta os dados de inscrição do formulário.
+Como usar
+Clonar ou repositório :
 
-1. **Clone o repositório:**
+bater
 
-   ```bash
-   git clone https://github.com/seu-usuario/landing-page-escola-dnc.git
-2. **Estrutura de Pastas:**
+Copiar código
+git clone https://github.com/seu-usuario/landing-page-escola-dnc.git
+Estrutura de Pastas :
 
-   - `index.html`: Estrutura da página HTML.
-   - `CSS/style.css`: Arquivo CSS para estilização da página.
-   - `index.js`: Arquivo JavaScript para a interação do carrossel.
-   - `img/`: Pasta contendo o logotipo e imagens utilizadas.
-   - `icon/`: Pasta com os ícones para o menu informacional e carrossel.
-   - `cards/`: Pasta com as imagens dos depoimentos de alunos.
+index.html: Estrutura principal da página HTML.
+CSS/style.css: Arquivo CSS para estilização da página.
+index.js: Arquivo JavaScript para a funcionalidade do carrossel.
+img/: Contém o logotipo e outras imagens utilizadas na página.
+icon/: Ícones utilizados no menu informativo e carrossel.
+cards/: Imagens associadas aos depoimentos dos alunos no carrossel.
+Executar uma página : Para visualizar uma página, basta abrir o arquivo index.htmlno seu navegador.
 
-3. **Abrir a página:**
-   Para visualizar a página, basta abrir o arquivo `index.html` em seu navegador.
+Interação com a Página :
 
-4. **Interações:**
-   - Utilize as setas para navegar entre os depoimentos de alunos no carrossel.
-   - Preencha o formulário de inscrição para acessar a ementa grátis do curso.
+Utilize as setas para navegar entre os depoimentos no carrossel.
+Preencha o formulário de inscrição para receber a ementa gratuita do curso.
+Ajustes Futuros
+Implementa a rotação automática dos cartões no carrossel, permitindo alternância automática dos depoimentos.
+Tornar o design totalmente responsivo para uma melhor experiência de usuário em dispositivos móveis e tablets.
+Adicione validação no formulário para melhorar a coleta de dados.
+Contribuições
+Contribuições são sempre bem-vindas! Se você tiver sugestões de melhorias ou quiser adicionar novas funcionalidades, sinta-se à vontade para abrir uma edição ou enviar um pull request.
 
-## Ajustes Futuros
-
-- Implementação de uma funcionalidade para alternar automaticamente entre os cards do carrossel.
-- Tornar o design responsivo para melhorar a visualização em dispositivos móveis.
-
-## Contribuições
-
-Sinta-se à vontade para abrir issues ou enviar pull requests caso deseje contribuir com melhorias ou novas funcionalidades.
-
----
-
-**Escola DNC** - Dê os primeiros passos na sua carreira em Tecnologia!
-```
+Escola DNC - Dê os primeiros passos na sua carreira em Tecnologia!
