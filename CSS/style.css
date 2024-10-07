@@ -1,0 +1,185 @@
+*{
+    margin: 0px; 
+    font-family: "inter"; 
+}
+
+/*menu superior inicio*/
+#logo{
+
+    margin-left: 56px;
+    margin-top: 52px;
+
+
+}
+
+#titulo_menusup{
+
+    margin-top: 185px;
+    margin-left: 172px;
+    line-height: 51.4px;
+    width: 536px;
+    height: 102px;
+
+}
+
+#paragrafo_menusup{
+
+    margin-top: 30px;
+    margin-left: 172px;
+    line-height: 30px;
+    font-size: 20px;
+    width: 536px;
+    height: 90px;
+    padding-bottom: 100px;
+
+
+}
+
+#menusuperior{
+
+     background-image: url(/img/fundo_menusup.svg);
+     color: #ffffff;
+
+}
+/*menu superior fim*/
+
+/*menu informacional inicio*/
+#menuinfo{
+
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto
+}
+
+.icon{
+
+    margin:50px 0px 50px 100px;
+    padding: 25;
+}
+
+.textoinfo{
+
+    display: flex;
+    align-items:center
+
+}
+/*menu informacional fim*/
+
+/*menu Seção video inicio*/
+#titulo_video{
+
+    color:#247BA0;
+    margin-top: 50px;
+    
+}
+
+#secao_video{
+
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+/*menu Seção video fim*/
+
+ /*Carrosel inicio*/
+ #carrossel{
+
+    background-color: #247BA0 ;
+    padding: 50px;
+
+ }
+
+#titulo_carrossel{
+
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#div_cards{
+
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+
+
+}
+
+#seta_esquerda{
+
+    display: none;
+
+}
+
+#card_bruna{
+
+    display: none;
+
+}
+
+.seta{
+
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.seta:hover{
+
+    transform: translateY(-7px);
+    transition: 0,5s;
+}
+  /*Carrosel fim*/
+
+  /*Formuário inicio*/
+
+
+#formulario{
+
+    text-align: center;
+
+
+}
+
+#titulo_formulario{
+
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+
+}
+
+input{
+    width: 300px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px color  #05103081;
+    transition-duration: 0.5ms;
+}
+    
+  /*Formuário fim*/
