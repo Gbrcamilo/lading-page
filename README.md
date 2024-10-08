@@ -1,5 +1,5 @@
 Landing Page - Escola DNC
-Link para visualização
+Link para visualização:https://lading-page-dnc-gabrielcamilo.netlify.app
 Este projeto é uma landing page interativa da Escola DNC , desenvolvida com HTML , CSS e JavaScript . A página promove um curso gratuito de Introdução à Tecnologia , apresentando os benefícios do curso, depoimentos de alunos e um formulário de inscrição que integra o Sheetmonkey .
 
 Funcionalidades
