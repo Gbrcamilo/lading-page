@@ -1,5 +1,5 @@
 Landing Page - Curso de Tecnologia
-🔗 Link para visualização: Link para a Landing Page
+🔗 Link para visualização: [Link para a Landing Page](https://lading-page-dnc-gabrielcamilo.netlify.app/)
 
 Este projeto é uma landing page interativa para um curso gratuito de Introdução à Tecnologia, desenvolvida com HTML, CSS e JavaScript. A página promove o curso, apresentando seus benefícios, depoimentos de alunos e um formulário de inscrição integrado ao Sheetmonkey.
 
